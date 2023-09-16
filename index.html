@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!---- Tailwind ---->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!----- Font Awsome ----->
+    <script
+      src="https://kit.fontawesome.com/ebd73b03fd.js"
+      crossorigin="anonymous"
+    ></script>
+    <!---- Flowbite ---->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header
+      class="flex justify-between items-center max1 bg-white"
+      style="position: sticky; height: 70px; top: 0"
+      ;
+    >
+      <div class="flex items-center gap-20 max-[1094px]:gap-10">
+        <div class="flex gap-3 items-center max-[493px]:hidden">
+          <img src="Assets/logo-removebg-preview.png" alt="" class="logo" />
+          <h2 class="font-bold text-base max-[1094px]:text-sm">Aimagetech</h2>
+        </div>
+        <h4 class="text-lg max-[1094px]:text-lg max-[657px]:hidden font-bold">
+          Let's Discuss with Our community
+        </h4>
+      </div>
+
+      <div class="flex items-center gap-5">
+        <div class="border-r-[1px] border-black relative max-[815px]:hidden">
+          <i class="fa-regular fa-comment pr-5 text-xl"></i>
+          <span class="six rounded-full">6</span>
+        </div>
+
+        <div class="border-r-[1px] border-black max-[815px]:hidden">
+          <i class="fa-regular fa-bookmark pr-5 text-xl"></i>
+        </div>
+
+        <div class="border-r-[1px] border-black max-[815px]:hidden">
+          <i class="fa-regular fa-bell pr-5 text-xl"></i>
+        </div>
+
+        <div class="flex gap-3 max-[493px]:pt-8">
+          <img src="Assets/Avatar1.png" alt="" />
+          <div class="max-[936px]:hidden">
+            <h6 class="font-bold text-sm">
+              SultonHand
+              <span class="bg-blue-600 text-white px-2 rounded-lg">Basic</span>
+            </h6>
+            <a href="#" class="text-xs">Sultonhand@gmail.com</a>
+          </div>
+        </div>
+        <i class="fa-solid fa-chevron-down text-sm max-[493px]:pt-8"></i>
+      </div>
+    </header>
+
+    <section class="max">
+      <div class="flex">
+        <!-- sidebar start -->
+        <aside class="fixed p-[1.5rem] side_bar w-[260px]">
+          <div class="flex flex-col h-full">
+            <section>
+              <h3 class="text-sm text-black font-bold">My GPU creations</h3>
+              <div class="bg-gray-100 mt-3 px-3 pt-3 pb-2 rounded-md">
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center gap-2">
+                    <img
+                      src="Assets/coin.png"
+                      alt=""
+                      style="width: 30px; height: 30px"
+                    />
+
+                    <div>
+                      <h4 class="text-[13px]">
+                        <span class="font-bold">1216</span>/1500
+                      </h4>
+                    </div>
+                  </div>
+
+                  <i
+                    class="fa-solid fa-circle-exclamation text-gray-500 text-sm"
+                  ></i>
+                </div>
+                <h6 class="text-xs pl-10 -mt-2">month</h6>
+
+                <div
+                  class="w-3/5 mx-10 bg-gray-200 rounded-full h-1.5 mt-3 dark:bg-gray-700"
+                >
+                  <div
+                    class="bg-green-500 h-1.5 rounded-full dark:bg-green-500"
+                    style="width: 25%"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="mt-3 over">
+                <h3 class="text-sm text-black font-bold">Started Here</h3>
+
+                <div class="mt-4">
+                  <a href="" class="flex gap-2 items-center px-3">
+                    <i class="fa-solid fa-house text-sm"></i>
+                    <h5 class="text-sm font-semibold">Home Feed</h5>
+                  </a>
+
+                  <a
+                    href=""
+                    class="flex gap-2 items-center mr-5 mt-3 bg-blue-600 py-3 px-3 text-white rounded-md"
+                  >
+                    <i class="fa-solid fa-tower-broadcast text-sm"></i>
+                    <h5 class="text-sm font-semibold">Channel Room</h5>
+                  </a>
+
+                  <a href="" class="flex gap-2 mt-3 items-center px-3">
+                    <i class="fa-solid fa-store text-sm"></i>
+                    <h5 class="text-sm font-semibold">Prompt Store</h5>
+                  </a>
+                </div>
+
+                <h3 class="text-sm mt-5 text-black font-bold">
+                  AI Tools Featured
+                </h3>
+                <div class="mt-4">
+                  <a href="" class="flex gap-2 mt-3 items-center px-3">
+                    <i class="fa-regular fa-image text-sm"></i>
+                    <h5 class="text-sm font-semibold">AI Image Generation</h5>
+                  </a>
+
+                  <a href="" class="flex gap-2 mt-3 items-center px-3">
+                    <i class="fa-regular fa-image text-sm"></i>
+                    <h5 class="text-sm font-semibold">AI Canvas Playground</h5>
+                  </a>
+
+                  <a href="" class="flex gap-2 mt-3 items-center px-3">
+                    <i class="fa-solid fa-wand-sparkles text-sm"></i>
+                    <h5 class="text-sm font-semibold">Generative recolor</h5>
+                  </a>
+
+                  <a href="" class="flex gap-2 mt-3 items-center px-3">
+                    <i class="fa-solid fa-images text-sm"></i>
+                    <h5 class="text-sm font-semibold">Extend image</h5>
+                  </a>
+                </div>
+              </div>
+            </section>
+
+            <div
+              class="bg-gray-200 mt-7 py-3 rounded-md"
+              style="margin-top: auto"
+            >
+              <img
+                src="Assets/hand.png"
+                alt=""
+                class="w-[100px] h-[100px] block mx-auto"
+              />
+              <p class="text-center text-sm font-bold pt-3">
+                Want to get unlimited GPU creation time
+              </p>
+              <a
+                href=""
+                class="mt-1 flex justify-center items-center gap-3 border-[1px] border-black border-solid rounded-md mx-8 py-1"
+              >
+                <h3 class="text-sm">Upgrade Now</h3>
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </aside>
+        <!-- sidebar end -->
+
+        <!-- main -->
+        <div class="bg-gray-100 main ml-[260px]">
+          <div class="bg-white h-full flex flex-col">
+            <div class="border-b py-4 px-4 flex">
+              <div class="flex items-center gap-3">
+                <div class="bg-blue-600 px-2 py-[2px] rounded-md">
+                  <i class="fa-solid fa-plus bg-white rounded-sm"></i>
+                </div>
+                <h3>Create new room</h3>
+              </div>
+
+              <div class="relative w-full max-w-3xl mx-auto">
+                <input
+                  type="text"
+                  placeholder="Search here..."
+                  class="pl-10 pr-16 py-2 w-[500px] border bg-gray-100 rounded-md focus:outline-none"
+                />
+                <div class="absolute inset-y-0 left-0 flex items-center pl-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6 text-gray-400"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M15 11a4 4 0 11-8 0 4 4 0 018 0z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M21 21l-4.35-4.35M8 11h0"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="absolute inset-y-0 right-[280px] flex items-center pr-3"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6 text-gray-400"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h16M4 18h16"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex flex-1 overflow-y-auto">
+              <!----- main1 ----->
+              <div class="w-[230px] h-full overflow-y-auto">
+                <div class="px-4 py-4">
+                  <div>
+                    <!-- Dropdown Head -->
+                    <div class="flex items-center gap-3">
+                      <i class="fa-solid fa-chevron-down text-sm"></i>
+                      <h6 class="text-sm font-bold">Information</h6>
+                    </div>
+                    <!---- Dropdown contents ---->
+                    <div class="flex items-center gap-3 mt-5">
+                      <h2 class="text-base font-medium">
+                        <span class="text-lg">#</span>
+                        <span class="pl-2">Prompt chat</span>
+                      </h2>
+                      <span class="text-xs bg-red-500 rounded-md px-1"
+                        >4 New</span
+                      >
+                    </div>
+                    <div>
+                      <h2 class="text-base mt-2 font-medium">
+                        <span class="text-lg">#</span>
+                        <span class="pl-2">Getting Started</span>
+                      </h2>
+
+                      <h2 class="text-base mt-2 font-medium">
+                        <span class="text-lg">#</span>
+                        <span class="pl-2">Rules</span>
+                      </h2>
+                    </div>
+
+                    <!-- Dropdown Head -->
+                    <div class="flex items-center gap-3 mt-5">
+                      <i class="fa-solid fa-chevron-down text-sm"></i>
+                      <h6 class="text-sm font-bold">Newcomer Rooms</h6>
+                    </div>
+
+                    <!---- Dropdown contents ---->
+                    <div>
+                      <h2 class="text-base mt-2 font-medium">
+                        <span class="text-lg">#</span>
+                        <span class="pl-2">Image-Jams</span>
+                      </h2>
+
+                      <h2 class="text-base mt-2 font-medium">
+                        <span class="text-lg">#</span>
+                        <span class="pl-2">Newbies Tutor</span>
+                      </h2>
+                    </div>
+
+                    <!-- Dropdown Head -->
+                    <div class="flex items-center gap-3 mt-5">
+                      <i class="fa-solid fa-chevron-down text-sm"></i>
+                      <h6 class="text-sm font-bold">Playground AI</h6>
+                    </div>
+
+                    <!---- Dropdown contents ---->
+                    <div>
+                      <h2 class="text-base mt-2 font-medium">
+                        <span class="text-lg">#</span>
+                        <span class="pl-2">Discussions</span>
+                      </h2>
+
+                      <h2 class="text-base mt-2 font-medium">
+                        <span class="text-lg">#</span>
+                        <span class="pl-2">Newbies Tutor</span>
+                      </h2>
+
+                      <div class="flex items-center gap-3 mt-2">
+                        <h2 class="text-base font-medium">
+                          <span class="text-lg">#</span>
+                          <span class="pl-2">Prompt chat</span>
+                        </h2>
+                        <span class="text-xs bg-red-500 rounded-md px-1"
+                          >4 New</span
+                        >
+                      </div>
+
+                      <h2 class="text-base mt-2 font-medium">
+                        <span class="text-lg">#</span>
+                        <span class="pl-2">Off Topic</span>
+                      </h2>
+                    </div>
+
+                    <!-- Dropdown Head -->
+                    <div class="flex items-center gap-3 mt-5">
+                      <i class="fa-solid fa-chevron-down text-sm"></i>
+                      <h6 class="text-sm font-bold">Theme Image Gen</h6>
+                    </div>
+
+                    <!---- Dropdown contents ---->
+                    <div>
+                      <h2 class="text-base mt-2 font-medium">
+                        <span class="text-lg">#</span>
+                        <span class="pl-2">Daily theme</span>
+                      </h2>
+
+                      <h2 class="text-base mt-2 font-medium">
+                        <span class="text-lg">#</span>
+                        <span class="pl-2">Abstract</span>
+                      </h2>
+
+                      <h2 class="text-base mt-2 font-medium">
+                        <span class="text-lg">#</span>
+                        <span class="pl-2">Environment</span>
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!----- main2 ----->
+              <div class="flex-1 h-full overflow-y-auto">
+                <header
+                  class="border-b border-gray-300 py-4 mx-3 px-2 flex justify-between items-center"
+                >
+                  <h1 class="text-xl font-bold">#Discuss</h1>
+                  <p class="text-base">Please use this channel...</p>
+                  <div class="flex items-center gap-5">
+                    <i class="fa-solid fa-bullseye"></i>
+                    <i class="fa-solid fa-bell"></i>
+                    <img
+                      src="Assets/Avatar group.png"
+                      alt=""
+                      style="width: 50px; height: 25px"
+                    />
+                    <h6>2,256</h6>
+                  </div>
+                </header>
+
+                <!------- MESSAGES SECTION -------->
+                <section>
+                  <div
+                    class="flex justify-between mt-1 text-white items-center px-4 py-3 bg-blue-500 mx-3 rounded-md"
+                  >
+                    <p class="text-sm">
+                      16+new messages since 1:45pm on july, 2023
+                    </p>
+                    <div class="flex items-center gap-3">
+                      <i class="fa-solid fa-circle-check"></i>
+                      <h5 class="text-sm underline">Mark as read</h5>
+                    </div>
+                  </div>
+
+                  <div class="flex justify-between mt-4 items-center px-4">
+                    <div class="flex justify-evenly gap-2 items-center">
+                      <img
+                        src="Assets/Avatar1.png"
+                        alt=""
+                        style="width: 30px; height: 30px"
+                      />
+                      <h3 class="font-extrabold text-sm">AI#88</h3>
+                      <h4 class="text-xs">Today at 15:00</h4>
+                    </div>
+
+                    <div class="flex items-center gap-3">
+                      <i class="fa-solid fa-face-smile"></i>
+                      <a
+                        href=""
+                        class="bg-gray-200 px-3 py-1 rounded-full flex gap-2 items-center"
+                      >
+                        <i class="fa-solid fa-share"></i>
+                        <h4 class="text-sm">Reply</h4>
+                      </a>
+                    </div>
+                  </div>
+                  <!-- MESSAGE EMOJIS -->
+                  <div class="px-14 py-1">
+                    <p class="text-sm">
+                      Hi, can somebody assist me in getting the right prompt i'm
+                      trying to get a cute isometric of an empty city as in just
+                      the roads
+                    </p>
+                    <div class="flex items-center gap-4 pt-3">
+                      <a
+                        href=""
+                        class="flex items-center bg-gray-100 gap-1 px-1.5 py-1 rounded-full"
+                      >
+                        <i
+                          class="fa-solid fa-fire-flame-curved text-red-700 text-sm"
+                        ></i>
+                        <h6 class="text-xs">22</h6>
+                      </a>
+
+                      <a
+                        href=""
+                        class="flex items-center bg-gray-100 px-1.5 py-1 rounded-full gap-1 px-1.5 py-1 rounded-ful"
+                      >
+                        <i class="fa-solid fa-rocket text-sm text-red-700"></i>
+                        <h6 class="text-xs">22</h6>
+                      </a>
+
+                      <a
+                        href=""
+                        class="flex items-center bg-gray-100 gap-1 px-1.5 py-1 rounded-full"
+                      >
+                        <i class="fa-solid fa-heart text-sm text-red-600"></i>
+                        <h6 class="text-xs">22</h6>
+                      </a>
+
+                      <a
+                        href=""
+                        class="flex items-center bg-gray-100 gap-1 px-1.5 py-1 rounded-full"
+                      >
+                        <i
+                          class="fa-solid fa-face-smile text-sm text-yellow-400"
+                        ></i>
+                        <h6 class="text-xs">22</h6>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="flex items-center gap-4 px-14 py-2">
+                    <i class="fa-solid fa-rotate-left"></i>
+                    <img
+                      src="Assets/Avatar group.png"
+                      alt=""
+                      style="width: 50px; height: 25px"
+                    />
+                    <a href="" class="text-purple-600 text-sm font-medium"
+                      >24 replies</a
+                    >
+                    <h4 class="text-xs">Last reply 20 minutes ago</h4>
+                  </div>
+
+                  <!----- DIVIDER ----->
+                  <div class="flex items-center justify-center mt-2">
+                    <p>-------------</p>
+                    <div class="border rounded-full px-2 py-1 text-xs">
+                      <h6>Thursday,july 13th</h6>
+                    </div>
+                    <p>-------------</p>
+                  </div>
+
+                  <!----- MESSAGE PROFILE ----->
+                  <div class="flex justify-between mt-4 items-center px-4">
+                    <div class="flex justify-evenly gap-2 items-center">
+                      <img
+                        src="Assets/Avatar1.png"
+                        alt=""
+                        style="width: 30px; height: 30px"
+                      />
+                      <h3 class="font-extrabold text-sm">AI#88</h3>
+                      <h4 class="text-xs">Today at 15:00</h4>
+                    </div>
+
+                    <div class="flex items-center gap-3">
+                      <i class="fa-solid fa-face-smile"></i>
+                      <a
+                        href=""
+                        class="bg-gray-200 px-3 py-1 rounded-full flex gap-2 items-center"
+                      >
+                        <i class="fa-solid fa-share"></i>
+                        <h4 class="text-sm">Reply</h4>
+                      </a>
+                    </div>
+                  </div>
+
+                  <!-- MESSAGE EMOJIS -->
+                  <div class="px-14 py-1">
+                    <p class="text-sm">
+                      Hi, can somebody assist me in getting the right prompt i'm
+                      trying to get a cute isometric of an empty city as in just
+                      the roads
+                    </p>
+                    <div class="flex items-center gap-4 pt-3">
+                      <a
+                        href=""
+                        class="flex items-center bg-gray-100 gap-1 px-1.5 py-1 rounded-full"
+                      >
+                        <i
+                          class="fa-solid fa-fire-flame-curved text-red-700 text-sm"
+                        ></i>
+                        <h6 class="text-xs">22</h6>
+                      </a>
+
+                      <a
+                        href=""
+                        class="flex items-center bg-gray-100 px-1.5 py-1 rounded-full gap-1 px-1.5 py-1 rounded-ful"
+                      >
+                        <i class="fa-solid fa-rocket text-sm text-red-700"></i>
+                        <h6 class="text-xs">22</h6>
+                      </a>
+
+                      <a
+                        href=""
+                        class="flex items-center bg-gray-100 gap-1 px-1.5 py-1 rounded-full"
+                      >
+                        <i class="fa-solid fa-heart text-sm text-red-600"></i>
+                        <h6 class="text-xs">22</h6>
+                      </a>
+
+                      <a
+                        href=""
+                        class="flex items-center bg-gray-100 gap-1 px-1.5 py-1 rounded-full"
+                      >
+                        <i
+                          class="fa-solid fa-face-smile text-sm text-yellow-400"
+                        ></i>
+                        <h6 class="text-xs">22</h6>
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="flex items-center gap-4 px-14 py-2">
+                    <i class="fa-solid fa-rotate-left"></i>
+                    <img
+                      src="Assets/Avatar group.png"
+                      alt=""
+                      style="width: 50px; height: 25px"
+                    />
+                    <a href="" class="text-purple-600 text-sm font-medium"
+                      >24 replies</a
+                    >
+                    <h4 class="text-xs">Last reply 20 minutes ago</h4>
+                  </div>
+
+                  <!------- TEXT AREA ------->
+                  <div class="px-4 py-4">
+                    <textarea
+                      id="message"
+                      rows="4"
+                      class="block p-2.5 w-full text-sm text-gray-900 rounded-lg border border-gray-300 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                      placeholder="Write your thoughts here..."
+                    ></textarea>
+                  </div>
+                </section>
+              </div>
+
+              <!------ MAIN3 ------>
+              <div class="w-[270px]">
+                <header
+                  class="border-b border-gray-300 py-4 mx-3 px-2 flex justify-between items-center"
+                >
+                  <div class="flex gap-4 items-center">
+                    <h1 class="text-xl font-bold">Thread</h1>
+                    <p class="text-base">#discuss</p>
+                  </div>
+
+                  <i class="fa-solid fa-x text-xs"></i>
+                </header>
+
+                <!------ MESSAGE SECTION ------>
+                <section style="overflow-y: scroll; height: 350px">
+                  <div class="flex justify-between mt-4 items-center px-4">
+                    <div class="flex justify-evenly gap-2 items-center">
+                      <img
+                        src="Assets/Avatar1.png"
+                        alt=""
+                        style="width: 30px; height: 30px"
+                      />
+                      <h3 class="font-extrabold text-sm">AI#88</h3>
+                      <h4 class="text-xs">Today at 15:00</h4>
+                    </div>
+
+                    <div class="flex items-center gap-3">
+                      <i class="fa-solid fa-face-smile"></i>
+                    </div>
+                  </div>
+
+                  <!-- MESSAGE EMOJIS -->
+                  <div class="px-4 py-2">
+                    <p class="text-sm">
+                      Hi, can somebody assist me in getting the right prompt i'm
+                      trying to get a cute isometric of an empty city as in just
+                      the roads
+                    </p>
+                    <div class="flex items-center gap-4 pt-3">
+                      <a
+                        href=""
+                        class="flex items-center bg-gray-100 gap-1 px-1.5 py-1 rounded-full"
+                      >
+                        <i
+                          class="fa-solid fa-fire-flame-curved text-red-700 text-sm"
+                        ></i>
+                        <h6 class="text-xs">22</h6>
+                      </a>
+
+                      <a
+                        href=""
+                        class="flex items-center bg-gray-100 px-1.5 py-1 rounded-full gap-1 px-1.5 py-1 rounded-ful"
+                      >
+                        <i class="fa-solid fa-rocket text-sm text-red-700"></i>
+                        <h6 class="text-xs">22</h6>
+                      </a>
+
+                      <a
+                        href=""
+                        class="flex items-center bg-gray-100 gap-1 px-1.5 py-1 rounded-full"
+                      >
+                        <i class="fa-solid fa-heart text-sm text-red-600"></i>
+                        <h6 class="text-xs">22</h6>
+                      </a>
+
+                      <a
+                        href=""
+                        class="flex items-center bg-gray-100 gap-1 px-1.5 py-1 rounded-full"
+                      >
+                        <i
+                          class="fa-solid fa-face-smile text-sm text-yellow-400"
+                        ></i>
+                        <h6 class="text-xs">22</h6>
+                      </a>
+                    </div>
+                  </div>
+
+                  <!------- DIVIDER ------->
+                  <p class="px-4 py-4 text-[15px] font-bold">
+                    24 replies
+                    <span class="pl-1"
+                      >.......................................</span
+                    >
+                  </p>
+
+                  <div class="flex justify-between mt-4 items-center px-4">
+                    <div class="flex justify-evenly gap-2 items-center">
+                      <img
+                        src="Assets/Avatar1.png"
+                        alt=""
+                        style="width: 30px; height: 30px"
+                      />
+                      <h3 class="font-extrabold text-sm">AI#88</h3>
+                      <h4 class="text-xs">Today at 15:00</h4>
+                    </div>
+
+                    <div class="flex items-center gap-3">
+                      <i class="fa-solid fa-face-smile"></i>
+                    </div>
+                  </div>
+
+                  <!-- MESSAGE EMOJIS -->
+                  <div class="px-4 py-2">
+                    <p class="text-sm">
+                      Hi, can somebody assist me in getting the right prompt i'm
+                      trying to get a cute isometric of an empty city as in just
+                      the roads
+                    </p>
+                  </div>
+
+                  <div class="flex justify-between mt-4 items-center px-4">
+                    <div class="flex justify-evenly gap-2 items-center">
+                      <img
+                        src="Assets/Avatar1.png"
+                        alt=""
+                        style="width: 30px; height: 30px"
+                      />
+                      <h3 class="font-extrabold text-sm">AI#88</h3>
+                      <h4 class="text-xs">Today at 15:00</h4>
+                    </div>
+
+                    <div class="flex items-center gap-3">
+                      <i class="fa-solid fa-face-smile"></i>
+                    </div>
+                  </div>
+
+                  <!-- MESSAGE EMOJIS -->
+                  <div class="px-4 py-2">
+                    <p class="text-sm">
+                      Hi, can somebody assist me in getting the right prompt i'm
+                      trying to get a cute isometric of an empty city as in just
+                      the roads
+                    </p>
+                  </div>
+
+                  <!------- TEXT AREA ------->
+                  <div class="px-4 py-4">
+                    <textarea
+                      id="message"
+                      rows="4"
+                      class="block p-2.5 w-full text-sm text-gray-900 rounded-lg border border-gray-300 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                      placeholder="Write your thoughts here..."
+                    ></textarea>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!----- Flowbite ----->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+  </body>
+</html>
