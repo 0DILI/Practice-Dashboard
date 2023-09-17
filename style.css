@@ -60,3 +60,25 @@ body {
   top: 60px;
   height: calc(100vh - 60px);
 }
+
+@media screen and (max-width: 1115px) {
+  .side_bar {
+    display: none;
+  }
+
+  .main {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 1054px) {
+  .main {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .main {
+    margin-left: 0;
+  }
+}
