@@ -399,13 +399,14 @@
 
                     <div class="flex items-center gap-3">
                       <i class="fa-solid fa-face-smile"></i>
-                      <a
+                      <button
+                        id="toggleButton"
                         href=""
                         class="bg-gray-200 px-3 py-1 rounded-full flex gap-2 items-center"
                       >
                         <i class="fa-solid fa-share"></i>
                         <h4 class="text-sm">Reply</h4>
-                      </a>
+                      </button>
                     </div>
                   </div>
                   <!-- MESSAGE EMOJIS -->
@@ -612,7 +613,11 @@
               </div>
 
               <!------ MAIN3 ------>
-              <div class="w-[300px]" style="overflow-y: hidden">
+              <div
+                class="w-[300px]"
+                style="overflow-y: hidden"
+                id="sectionToToggle"
+              >
                 <header
                   class="border-b border-gray-300 py-4 mx-3 px-2 flex justify-between items-center"
                 >
@@ -798,5 +803,7 @@
     </section>
     <!----- Flowbite ----->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+    <!------,. JAVASCRIPT ------>
+    <script src="main.js"></script>
   </body>
 </html>
