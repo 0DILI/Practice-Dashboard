@@ -1,12 +1,11 @@
-const toggleButton = document.getElementById("toggleButton");
-const sectionToToggle = document.getElementById("sectionToToggle");
+const showSection3Button = document.getElementById("showSection3");
+const hideSection3Button = document.getElementById("hideSection3");
+const section3 = document.getElementById("section3");
 
-toggleButton.addEventListener("click", () => {
-  if (sectionToToggle.style.flex === "0") {
-    sectionToToggle.style.flex = "1";
-    sectionToToggle.style.display = "initial";
-  } else {
-    sectionToToggle.style.flex = "0";
-    sectionToToggle.style.display = "none";
-  }
+showSection3Button.addEventListener("click", () => {
+  section3.classList.remove("hidden");
+});
+
+hideSection3Button.addEventListener("click", () => {
+  section3.classList.add("hidden");
 });
