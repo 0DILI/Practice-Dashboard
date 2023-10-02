@@ -181,19 +181,20 @@
         <div class="bg-gray-100 main ml-[260px]">
           <div class="bg-white h-full flex flex-col">
             <!------ MAIN SEARCHBAR ------>
-            <div class="border-b py-4 px-4 flex gap-16">
-              <div class="flex items-center gap-3">
+            <div class="border-b py-4 px-4 flex">
+              <div class="flex items-center gap-3 w-[210px]">
                 <div class="bg-blue-600 px-2 py-[2px] rounded-md">
                   <i class="fa-solid fa-plus bg-white rounded-sm"></i>
                 </div>
                 <h3>Create new room</h3>
+                <div></div>
               </div>
 
-              <div class="relative w-[500px]">
+              <div class="relative flex-1">
                 <input
                   type="text"
                   placeholder="Search here..."
-                  class="pl-10 pr-16 py-2 w-full border bg-gray-100 rounded-md focus:outline-none"
+                  class="pl-10 pr-16 py-2 w-full border bg-gray-100 rounded-md focus:ring-0 focus:border-gray-500"
                 />
                 <div class="absolute inset-y-0 left-0 flex items-center pl-3">
                   <svg
@@ -234,6 +235,7 @@
                   </svg>
                 </div>
               </div>
+              <div class="w-[300px]"></div>
             </div>
 
             <!--=-- MAIN CONTENTS ------>
@@ -373,7 +375,7 @@
                 </header>
 
                 <!------- MESSAGES SECTION -------->
-                <section>
+                <section class="flex-1">
                   <div
                     class="flex justify-between mt-1 text-white items-center px-4 py-3 bg-blue-500 mx-3 rounded-md"
                   >
@@ -469,12 +471,16 @@
                   </div>
 
                   <!----- DIVIDER ----->
-                  <div class="flex items-center justify-center mt-2">
-                    <p>-------------</p>
+                  <div class="flex items-center justify-center mt-2 mx-5">
+                    <p
+                      class="flex-1 border-gray-500 border-t-2 h-2 border-dashed"
+                    ></p>
                     <div class="border rounded-full px-2 py-1 text-xs">
                       <h6>Thursday,july 13th</h6>
                     </div>
-                    <p>-------------</p>
+                    <p
+                      class="flex-1 border-gray-500 border-t-2 h-2 border-dashed"
+                    ></p>
                   </div>
 
                   <!----- MESSAGE PROFILE ----->
@@ -562,7 +568,7 @@
                 </section>
                 <!------- TEXT AREA ------->
                 <div
-                  class="mx-4 border border-black bg-white sticky bottom-0 top-0 rounded-lg"
+                  class="mx-4 border border-gray-300 bg-white sticky bottom-0 top-0 rounded-lg overflow-hidden flex-shrink-0"
                 >
                   <div
                     class="flex items-center px-4 py-3 gap-5 bg-gray-100 text-[0.8125rem] font-normal"
@@ -583,7 +589,7 @@
                   <textarea
                     id="message"
                     rows="3"
-                    class="block p-2.5 w-full text-sm text-gray-900 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    class="block p-2.5 w-full text-sm text-gray-900 border-0 resize-none focus:ring-0"
                     placeholder="Write your thoughts here..."
                   ></textarea>
                   <div
@@ -743,7 +749,7 @@
 
                 <!------- TEXT AREA ------->
                 <div
-                  class="mx-4 border border-black bg-white sticky bottom-0 rounded-lg"
+                  class="mx-4 border border-gray-300 bg-white sticky bottom-0 rounded-lg overflow-hidden flex-shrink-0"
                 >
                   <div
                     class="flex items-center px-4 py-3 gap-5 bg-gray-100 text-[0.8125rem] font-normal"
@@ -764,7 +770,7 @@
                   <textarea
                     id="message"
                     rows="3"
-                    class="block p-2.5 w-full text-sm text-gray-900 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    class="block p-2.5 w-full text-sm text-gray-900 dark:placeholder-gray-400 focus:ring-0 resize-none border-0"
                     placeholder="Write your thoughts here..."
                   ></textarea>
                   <div
